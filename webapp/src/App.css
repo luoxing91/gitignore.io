@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+/* .App-logo { */
+/*   animation: App-logo-spin infinite 20s linear; */
+/*   height: 40vmin; */
+/* } */
+
+.lead {
+    color: #9090aa;
+    padding: 0 0 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.masthead-nav {
+    padding: 40px 0 0 0;
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #E15B39;
+  /* IE8 proofing */
+  border-bottom: 1px solid transparent;
+}
+
+.masthead-nav > li > a:focus,
+.masthead-nav > li > a:hover {
+  background-color: transparent;
+  border-bottom-color: #C03C1F;
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:focus,
+.masthead-nav > .active > a:hover {
+  color: #C03C1F;
+  border-bottom-color: #C03C1F;
+}
+
+
+
+.btn-gitignore {
+  color: #fff;
+  background-image: -webkit-linear-gradient(top, #ff4f27 0, #E15B39 100%);
+//  background-image: linear-gradient(to bottom, #ff4f27 0, #E15B39 100%);
+  background-repeat: repeat-x;
+  border: 1px solid #d23e1e;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fffaa937', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-gitignore:active {
+  color: #fff;
+  background-image: -webkit-linear-gradient(top, #d84824 0, #ce4121 100%);
+  background-image: linear-gradient(to bottom, #d84521 0, #ce4121 100%);
+  background-repeat: repeat-x;
+  border: 1px solid #d23e1e;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fffaa937', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+
+.btn {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.input{
+	width: 578px;
+}
+
+.input-group {
+    position: relative;
+    border-collapse: separate;
+	width: 578px;
+
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	
+	/* display:box; */
+	/* box-orient:horizontal */
+}
+
+.github-corner{
+	fill:#f4532e;;
+	color:#fff;
+	position: absolute;
+	top: 0;
+	border: 0;
+	right: 0;
+}
+
+.octo-arm{
+	transform-origin: 130px 106px;
+}
+
+
